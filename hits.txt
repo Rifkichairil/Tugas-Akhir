@@ -1,0 +1,8 @@
+
+   {{-- Looping disini --}}
+    {{--
+    @foreach ($hits['hits'] as $item)
+        {{$item['_source']['Title']}}
+        {{$item['_score']}}
+    @endforeach
+     --}}

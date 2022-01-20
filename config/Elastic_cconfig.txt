@@ -1,0 +1,5 @@
+php artisan elastic:drop-index 'App\Models\ProductIndexConfigurator'
+php artisan elastic:create-index 'App\Models\ProductIndexConfigurator'
+php artisan elastic:update-index 'App\Models\ProductIndexConfigurator'
+php artisan elastic:update-mapping 'App\Models\ResepMasakan'
+php artisan scout:import 'App\Models\ResepMasakan'
