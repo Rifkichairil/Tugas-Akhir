@@ -40,7 +40,7 @@
 
 <section>
     <div class="container py-2">
-        {{-- <a href="{{route('main.create')}}" class="btn btn-sm btn-primary mt-2 mb-2"> Tambah Resep Masakan</a> --}}
+        <a href="{{route('main.create')}}" class="btn btn-sm btn-primary mt-2 mb-2"> Tambah Resep Masakan</a>
 
         <div class="row mb-5 pb-3">
             {{-- Looping disini --}}
